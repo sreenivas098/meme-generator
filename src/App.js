@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import MemeForm from "./memeform";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () =>{
+  
+  return(
+    <div style={{backgroundColor:"gray",height:"100vh"}}>
+      <h1 style={{color:'red',backgroundColor:'blue',flexWrap:'wrap',textAlign:'center',fontSize:60}}>MEME GENERATOR</h1>
+
+      <MemeForm />
     </div>
-  );
-}
+  )
 
+}
 export default App;
+
