@@ -24,7 +24,7 @@ const MemeForm = () => {
         
     }
     return(
-        <div  style={{marginTop:"50px",marginLeft:'470px'}} >
+        <div  style={{marginTop:"50px",marginLeft:'420px'}} >
             <div >
                 <form onSubmit={onSubmit}>
                 <label>Text at the Top:<input type="text" name="topName"  /></label>
